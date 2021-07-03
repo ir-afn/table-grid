@@ -1,0 +1,230 @@
+/* 
+#5326D4
+#FDF8F5
+
+*/
+
+body {
+  margin: 0;
+  vertical-align: middle;
+  font-family: 'Rubik', 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  background-color: lavender;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  padding: 20px 50px;
+}
+
+td {
+  padding: 0;
+}
+
+.header, .footer {
+  height: 80px;
+}
+
+.header td {
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+.logo {
+  padding-left: 25px;
+}
+
+.logo .brand-name {
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.sign-in {
+  padding-right: 25px;
+}
+
+.sign-in button {
+  padding: 10px 20px;
+  background-color: #FDF8F5;
+  border: 3px solid lavender;
+  border-radius: 50px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.hero {
+  height: 475px;
+}
+
+.hero td {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.description {
+  background-color: #FDF8F5;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.cover {
+  background-image: url('img/user.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-heading {
+  margin-left: 30px;
+  color: #5326D4;
+}
+
+.hero-text {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.hero-link {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+  border: 3px solid lavender;
+  border-radius: 50px;
+  padding: 5px 15px;
+}
+
+.showcase td {
+  width: 20%;
+  padding-bottom: 50px;
+}
+
+.showcase-item {
+  padding-top: 50px;
+  padding-right: 10px;
+}
+
+.item-img {
+  width: 100%;
+  /* border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
+}
+
+.control {
+  font-size: 30px;
+  float: left;
+}
+
+.brand-name {
+  font-family: 'Alfa Slab One', cursive;
+  color: #5326D4;
+  letter-spacing: 0;
+}
+
+.item-heading {
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+.text-wrap {
+  margin-top: 5px;
+  background-color: #FDF8F5;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.item-info {
+  margin: 0;
+  color: #AAAAAA;
+  font-size: 16px;
+}
+
+.controls {
+  height: 50px;
+  width: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #5326D4;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: rgba(253, 248, 245, .5);
+  vertical-align: top;
+}
+
+.footer .logo {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.copyright {
+  padding-right: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer td {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.footer ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.socials__item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.socials__icon {
+	fill: #5326D4;
+}
+
+.socials__icon:hover, .socials__icon:active {
+	fill: white;
+	transition: fill .2s linear;
+}
